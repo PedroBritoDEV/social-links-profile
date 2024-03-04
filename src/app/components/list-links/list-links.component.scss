@@ -1,0 +1,34 @@
+@import '../../../styles.scss';
+
+ul {
+    list-style: none;
+    li {
+        width: 100%;
+        height: 45px;
+
+        border-radius: .4em;
+
+        background-color: $Grey;
+
+        &:hover {
+            background-color: $Green;
+            
+        }
+        a {    
+            text-decoration: none;
+            font-weight: 700;
+            
+            width: 100%;
+            height: 100%;
+
+            margin-top: 15px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:hover {
+                color: black !important;    
+            } 
+        }
+    }
+}

@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+$Green: #c5f82a;
+$White: #ffffff;
+$Grey: #333333;
+$DarkGrey: #1f1f1f;
+$OffBlack: #141414;
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: $White;
+    font-family: "Inter", sans-serif;
+}
+
+p {
+    font-size: 14px;
+}
+body {
+    background-color: $OffBlack;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

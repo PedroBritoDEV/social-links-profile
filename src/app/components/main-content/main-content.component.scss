@@ -1,0 +1,22 @@
+@import '../../../styles.scss';
+
+
+main {
+    width: 385px;
+    height: 610px;
+
+    background-color: $DarkGrey;
+
+    padding: 40px;
+    border-radius: .4em;
+}
+
+@media (max-width: 400px) {
+    main {
+        
+        width: 90%;
+        
+        padding: 25px;
+        margin: 0 auto;
+    }
+}
